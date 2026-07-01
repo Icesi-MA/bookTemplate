@@ -23,20 +23,6 @@ project:
       # change this value to "owner/repository" for the new course.
       repo: Icesi-MA/bookTemplate
       ref: main
-  toc:
-    - file: README.md
-    - title: Jornadas
-      file: Jornadas/README.md
-    - title: Notebooks
-      children:
-        - title: Cuaderno 0 - Introducción al curso
-          file: Notebooks/Matemáticas_Aplicadas_III_nb0.ipynb
-        - title: Cuaderno 1 - Continuación del curso
-          file: Notebooks/Matemáticas_Aplicadas_III_nb1.ipynb
-    - title: Entregas
-      file: Entregas/README.md
-    - title: Proyecto
-      file: Proyecto/README.md
 
 site:
   template: book-theme
