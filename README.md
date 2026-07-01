@@ -1,6 +1,10 @@
-# Matemáticas aplicadas X
-## Universidad Icesi
-## Departamento de Ciencias Físicas, Exactas & Energía / FIDCA
+
+<img src="_static/icesi-logo.svg" width="30%" alt="logo">
+
+# Matemáticas aplicadas X 
+Universidad Icesi
+
+Departamento de Ciencias Físicas, Exactas & Energía / FIDCA
 
 ## Presentación
 
