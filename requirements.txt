@@ -1,0 +1,15 @@
+ipykernel
+jupyterlab
+jupyter-server
+jupyter-book
+jupyterlab-myst
+matplotlib
+networkx
+numpy
+pandas
+pyformlang
+pydot
+scipy
+sympy
+seaborn
+xlrd

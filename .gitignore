@@ -1,0 +1,32 @@
+# =========================================================
+# OS-specific files
+# =========================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+
+# =========================================================
+# IDE/editor files
+# =========================================================
+.vscode/
+.idea/
+
+
+# MyST build outputs
+_build/
+.jupyter_cache/
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data and generated reports
+data/raw/
+outputs/
+*.html
+*.pdf

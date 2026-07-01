@@ -1,0 +1,50 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: c76d1b0d-663b-4106-8bc4-c7926e2040b4
+  title: Matemáticas Aplicadas X
+  description: "Material interactivo y reproducible para el curso [nombre del curso] de la Universidad Icesi."
+  keywords:
+    - matematicas
+    - aplicadas
+    - jupyter-book
+    - modelacion
+    - python
+    - docencia
+  authors:
+    - name: "[Nombre del docente]"
+      affiliation: Universidad Icesi
+  # Template repository. When creating a course from this template,
+  # change this URL to the new course repository.
+  github: https://github.com/Icesi-MA/bookTemplate
+  jupyter:
+    binder:
+      # Template Binder repository. When creating a course from this template,
+      # change this value to "owner/repository" for the new course.
+      repo: Icesi-MA/bookTemplate
+      ref: main
+  toc:
+    - file: README.md
+    - title: Jornadas
+      file: Jornadas/README.md
+    - title: Notebooks
+      children:
+        - title: Cuaderno 0 - Introducción al curso
+          file: Notebooks/Matemáticas_Aplicadas_III_nb0.ipynb
+        - title: Cuaderno 1 - Continuación del curso
+          file: Notebooks/Matemáticas_Aplicadas_III_nb1.ipynb
+    - title: Entregas
+      file: Entregas/README.md
+    - title: Proyecto
+      file: Proyecto/README.md
+
+site:
+  template: book-theme
+  options:
+    logo: _static/icesi-logo.svg
+    logo_dark: _static/icesi-logo-dark.svg
+    logo_text: Matemáticas Aplicadas X
+    logo_url: https://www.icesi.edu.co/
+    logo_alt: Universidad Icesi
+    style: _static/icesi.css
+    folders: true
