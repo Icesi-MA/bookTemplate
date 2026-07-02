@@ -12,7 +12,7 @@ project:
     - python
     - docencia
   authors:
-    - name: "[Editado por Angela Villota y Aníbal Sosa]"
+    - name: "Editores: Angela Villota y Aníbal Sosa"
   # Template repository. When creating a course from this template,
   # change this URL to the new course repository.
   github: https://github.com/Icesi-MA/bookTemplate
