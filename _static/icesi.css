@@ -75,6 +75,28 @@ main h1 {
   padding-bottom: 0.35rem;
 }
 
+.bd-content h1:first-of-type,
+main h1:first-of-type {
+  position: relative;
+  min-height: 4.35rem;
+  padding-right: min(36vw, 15rem);
+}
+
+.bd-content h1:first-of-type::after,
+main h1:first-of-type::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0.65rem;
+  width: min(34vw, 12.5rem);
+  height: 3.8rem;
+  background-image: url("_static/icesi-logo.svg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .bd-content h2,
 .bd-content h3,
 main h2,
@@ -133,5 +155,30 @@ button,
   .bd-sidebar-primary,
   .sidebar-primary {
     background: var(--icesi-surface-alt);
+  }
+
+  .bd-content h1:first-of-type::after,
+  main h1:first-of-type::after {
+    background-image: url("_static/icesi-logo-dark.svg");
+  }
+}
+
+@media (max-width: 720px) {
+  .bd-content h1:first-of-type,
+  main h1:first-of-type {
+    min-height: 0;
+    padding-right: 0;
+    padding-top: 3.6rem;
+  }
+
+  .bd-content h1:first-of-type::after,
+  main h1:first-of-type::after {
+    left: 0;
+    right: auto;
+    top: 0;
+    bottom: auto;
+    width: 10rem;
+    height: 3rem;
+    background-position: left center;
   }
 }

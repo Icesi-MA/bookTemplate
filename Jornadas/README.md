@@ -11,4 +11,4 @@ Esta sección organiza el trabajo del curso por sesiones, semanas o temas. Cada 
 - Ejercicios de práctica.
 - Preguntas de reflexión o cierre.
 
-Para crear una nueva jornada, duplica `notebooks/plantillas/cuaderno_base.ipynb`, renombra el archivo y agrega la ruta en `myst.yml`.
+Para crear una nueva jornada, duplica `plantillas/cuaderno_base.ipynb`, renombra el archivo dentro de `Notebooks/` y agrega la ruta en `myst.yml`.
