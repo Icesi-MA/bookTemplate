@@ -16,6 +16,8 @@ La labor editorial de este Jupyter Book es realizada por **Angela Villota** y **
 
 Este repositorio funciona como plantilla para construir Jupyter Books de cursos de **Matemáticas Aplicadas**. Para crear el libro de un curso real, conserva la estructura base y reemplaza los campos marcados con corchetes, por ejemplo `[nombre del curso]`, `[docente]`, `[semestre]` y `[tema]`.
 
+Para instrucciones detalladas de adaptación, publicación y manejo de imágenes, consulta [`GUIA_USO_TEMPLATE.md`](GUIA_USO_TEMPLATE.md).
+
 La estructura base del curso está pensada alrededor de cuatro componentes:
 
 - `Jornadas/`: planeación y organización de sesiones, semanas o módulos.
